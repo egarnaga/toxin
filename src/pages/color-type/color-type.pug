@@ -1,0 +1,19 @@
+extends ../../layouts/ui-kit
+include ../../components/button/button
+include ../../blocks/color-options/color-options
+
+block title
+  title color-type
+
+block head
+    link(rel="stylesheet" href="color-type.css")
+
+
+block body
+  +color-options
+  +button
+
+block script
+    script(src="./color-type.js")
+    
+    

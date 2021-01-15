@@ -1,0 +1,19 @@
+@import './_mixin';
+@import './_vars';
+
+
+
+html {
+  font-family: Montserrat, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #fff;
+}
+
+
+
+
+
+@import '../blocks/color-options/color-options';
+
+@import '../components/button/button.scss';
