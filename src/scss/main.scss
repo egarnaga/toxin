@@ -7,17 +7,18 @@
 // Global
 //---------------------------------
 
-@import 'variables';
-@import 'mixins';
-@import 'reboot';
+@import "variables";
+@import "mixins";
+@import "fonts";
+@import "reboot";
 
 
 // Blocks
 //---------------------------------
 
-@import '../blocks/color-options/color-options';
+@import "../blocks/color-options/color-options";
 
 // Components
 //---------------------------------
 
-@import '../components/button/button';
+@import "../components/button/button";
