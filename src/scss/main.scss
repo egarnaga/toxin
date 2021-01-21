@@ -1,19 +1,23 @@
-@import './_mixin';
-@import './_vars';
+// Vendor
+//---------------------------------
+
+@import "normalize";
 
 
+// Global
+//---------------------------------
 
-html {
-  font-family: Montserrat, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  background-color: #fff;
-}
-
+@import 'variables';
+@import 'mixins';
+@import 'reboot';
 
 
-
+// Blocks
+//---------------------------------
 
 @import '../blocks/color-options/color-options';
 
-@import '../components/button/button.scss';
+// Components
+//---------------------------------
+
+@import '../components/button/button';
