@@ -1,0 +1,17 @@
+block variables
+
+doctype html
+html(lang="ru")
+  head
+    include ../blocks/head
+    title
+      block title
+
+  body
+    .wrapper
+      include ../blocks/header
+      main
+        .container
+          block content
+      include ../blocks/footer
+    block scripts
