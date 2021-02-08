@@ -1,7 +1,52 @@
 extends ../templates/ui-kit-template
 
 block title
-  | Color & Type
+  | Colors & Type
 
 block content
-  .container
+  h1.visually-hidden Color & Type
+
+  .colors-and-type
+    ul.list-colors
+      li.list-colors__item
+        .list-colors__wrap
+          h2 Dark Shade 100%
+          span #1F2041
+      li.list-colors__item.list-colors__item--shade-75
+        .list-colors__wrap
+          h2 Dark Shade 75%
+          span #1F2041
+      li.list-colors__item.list-colors__item--shade-50
+        .list-colors__wrap
+          h2 Dark Shade 50%
+          span #1F2041
+      li.list-colors__item.list-colors__item--shade-25
+        .list-colors__wrap
+          h2 Dark Shade 25%
+          span #1F2041
+      li.list-colors__item.list-colors__item--shade-5
+        .list-colors__wrap
+          h2 Dark Shade 5%
+          span #1F2041
+      li.list-colors__item.list-colors__item--purple
+        .list-colors__wrap
+          h2 Purple
+          span #BC9CFF
+      li.list-colors__item.list-colors__item--green
+        .list-colors__wrap
+          h2 Green
+          span #6FCF97
+
+    ul.list-type
+      li.list-type__item.list-type__item--h1
+        span H1
+        p This one is the sub-section or widget title
+      li.list-type__item.list-type__item--h2
+        span H2
+        p Next one is the item title inside widgets
+      li.list-type__item.list-type__item--h3
+        span H3
+        p This is a label or CTA text
+      li.list-type__item.list-type__item--body
+        span Body
+        p This is the body text which is used for most of the design, like paragraphs, lists, etc.
