@@ -6,7 +6,9 @@ html(lang="ru")
       block title
 
   body
-    header
-    main
-      block content
-    footer
+    .wrapper
+      include ../blocks/header-ui-kit
+      main
+        .container
+          block content
+      footer

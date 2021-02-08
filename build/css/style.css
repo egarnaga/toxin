@@ -521,9 +521,9 @@ button,
 
 .container {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 0 40px; }
+  padding: 0 140px; }
   @media (max-width: 1439px) {
     .container {
       padding: 0 32px; } }
@@ -537,44 +537,21 @@ button,
     .container--no-padding {
       padding: 0; } }
 
-.header {
+.header-ui-kit {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-height: 100px;
-  padding: 0 40px;
-  background-color: #2c39f2; }
-  .header__wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .header a,
-  .header p {
-    color: #f2f2f2; }
-  .header ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0;
-    margin-right: 20px;
-    margin-left: 60px;
-    padding: 0;
-    list-style: none; }
-    .header ul li {
-      margin-right: 20px; }
-  .header .main-nav__toggle {
-    display: none; }
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px; }
 
-.footer {
-  min-height: 100px;
-  padding: 0 60px;
-  background-color: #2c39f2; }
+.logo {
+  line-height: 0; }
+
+.logo__img {
+  width: 48px;
+  height: 48px; }
 
 /* @media (hover: hover), screen and (min-width: 0\0) {
   &:hover,
