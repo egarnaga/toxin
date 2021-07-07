@@ -1,0 +1,42 @@
+.list-type {
+  max-width: 436px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-type__item {
+  display: flex;
+
+  padding-bottom: 50px;
+}
+
+.list-type__item--h1 {
+  @include header-h1;
+}
+
+.list-type__item--h2 {
+  @include header-h2;
+}
+
+.list-type__item--h3 {
+  @include header-h3;
+}
+
+.list-type__item--body {
+  @include text-body;
+}
+
+.list-type__item span {
+  min-width: 37px;
+
+  font-weight: 400;
+
+  text-align: right;
+  color: $color-dark-shade-25;
+}
+
+.list-type__item p {
+  margin: 0;
+  padding-left: 30px;
+}

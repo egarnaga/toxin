@@ -1,0 +1,70 @@
+.list-colors {
+  margin: 0;
+  margin-right: 30px;
+  padding: 0;
+  padding-bottom: 135px;
+
+  font-size: 19px;
+  line-height: 28px;
+
+  list-style: none;
+}
+
+.list-colors__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90px;
+  padding-left: 120px;
+}
+
+
+.list-colors__item::before {
+  content: "";
+
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+  width: 70px;
+  height: 70px;
+
+  background-color: $color-dark-shade-100;
+  border-radius: 6px;
+}
+
+.list-colors__item--shade-75::before {
+  background-color: $color-dark-shade-75;
+}
+
+.list-colors__item--shade-50::before {
+  background-color: $color-dark-shade-50;
+}
+
+.list-colors__item--shade-25::before {
+  background-color: $color-dark-shade-25;
+}
+
+.list-colors__item--shade-5::before {
+  background-color: $color-dark-shade-5;
+}
+
+.list-colors__item--purple::before {
+  background-color: $color-purple;
+}
+
+.list-colors__item--green::before {
+  background-color: $color-green;
+}
+
+
+.list-colors__wrap {
+  text-align: left;
+}
+
+.list-colors__item h2 {
+  margin: 0;
+
+  font-size: 19px;
+}

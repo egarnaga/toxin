@@ -1,0 +1,14 @@
+doctype html
+html(lang="ru")
+  head
+    include ../blocks/head
+    title
+      block title
+
+  body
+    .wrapper
+      include ../blocks/header-ui-kit
+      main
+        .container
+          block content
+      footer

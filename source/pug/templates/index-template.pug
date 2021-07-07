@@ -1,0 +1,28 @@
+doctype html
+html(lang="ru")
+  head
+    include ../blocks/head
+    title
+      block title
+    style.
+      a {
+        color: blue;
+        text-decoration: none;
+      }
+      ol {
+        padding-top: 10px;
+        padding-left: 20px;
+        font-size: 16px;
+        font-weight: 400;
+      }
+      li {
+        padding-bottom: 10px;
+      }
+      .container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+  body
+    main
+      block content
